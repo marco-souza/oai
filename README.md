@@ -1,6 +1,10 @@
 # oai
 OpenAI CLI
 
+## Requires
+
+- deno 1.30
+
 ## Usage
 
 To install, clone the repo and then:
