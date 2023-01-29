@@ -1,0 +1,12 @@
+{
+  "imports": {
+    "#/": "./",
+    "spinner": "https://deno.land/x/cli_spinners@v0.0.2/mod.ts",
+    "dotenv": "https://deno.land/x/dotenv/mod.ts",
+    "cliffy": "https://deno.land/x/cliffy@v0.25.7/command/mod.ts"
+  },
+  "tasks": {
+    "cli": "deno run --allow-net --allow-env --allow-read main.ts",
+    "dev": "deno run --watch main.ts"
+  }
+}
